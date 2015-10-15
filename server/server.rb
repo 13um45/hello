@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do 
-  "hello world"
+ File.read('public/hello.txt')
 end
